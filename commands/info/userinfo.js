@@ -7,7 +7,7 @@ module.exports = {
         .setDescription('Fetches inforomation about the user'),
     async execute(interaction) {
         const user = interaction.user;
-        await interaction.reply(`Your username: ${user.username}, Your ID: ${user.id}`);
+        await interaction.reply(`Your username: ${user.username}\nYour ID: ${user.id}`);
 
     },
 };
